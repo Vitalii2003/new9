@@ -10,9 +10,7 @@
 main {
 	max-width: 100%;
 	min-height: 100%;
-	/* background: #4daa54; */
 	padding: 10px;
-	background: url(../img/Uman.jpg) 0px 0px/auto no-repeat;
 }
 h1 {
 	color: orange;
