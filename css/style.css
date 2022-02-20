@@ -14,12 +14,17 @@ main {
 	background-color: violet;
 }
 h1 {
-	color: orange;
+	color: rgb(52, 77, 190);
 	font-weight: 900;
 	max-width: 800px;
 	text-align: center;
 	font-size: 40px;
 	margin: 10px ;
+}
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: powderblue;
 }
 .game div:nth-child(odd) {
 	background-color: #53e211;
@@ -144,7 +149,25 @@ h1 {
 .line_10:hover{
 	visibility: visible;
 }
+a {
+	color: turquoise;
 
+}
+.botton {
+	background: linear-gradient(55.95deg, #daf014, #2a0bdb 100%);
+	color: thistle;
+	border-radius: 15px;
+	align-items: center;
+	font-size: 50px;
+	padding: 5px;
+	margin-left: -60px;
+}
+.bott {
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 16px;
+}
 
 .image {
 	margin: -600px auto auto 200px;
@@ -154,5 +177,9 @@ h1 {
 	max-width: 1000px;
 }
 #image:target {
+	content: "";
 	display: block;
+}
+.galina {
+	width: 500px;
 }
